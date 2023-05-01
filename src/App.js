@@ -4,8 +4,9 @@ import DarkToLight from './Components/DarkToLight/DarkToLight';
 function App() {
   return (
     <div className="App">
+      <DarkToLight />
     <ImageSlider />,
-    <DarkToLight />
+    
     </div>
   );
 }

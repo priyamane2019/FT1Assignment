@@ -7,7 +7,7 @@ function DarkToLight(){
         setTheme(!theme)
     }
     useEffect(()=>{
-        if(theme==true){
+        if(theme===true){
             document.body.classList.add("dark");
         }else{
             document.body.classList.remove("dark");
