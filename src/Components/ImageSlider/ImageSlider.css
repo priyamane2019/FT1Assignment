@@ -14,3 +14,24 @@
 .clicked{
   border: 5px solid black;
 }
+.DisplayData
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap:30px;
+}
+.DisplayDisc{
+  width:300px;
+  height:200px;
+  font-size: medium;
+  text-align: start;
+}
+.btn{
+  background-color: red;
+  width:4opx;
+  height:10px;
+}
+.arrow{
+  cursor:pointer;
+}

@@ -17,8 +17,6 @@ function DarkToLight(){
     return(
         <div>
             <button onClick={handleClick}>{theme?"Light":"Dark"}</button>
-            <h1>Theme color in React</h1>
-            <span>Light and Dart theme</span>
         </div>
     );
 }
